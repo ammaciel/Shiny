@@ -1,6 +1,9 @@
 # Shiny Time Series
  
-This application is based on shiny, an interactive web applications with R, which allows to see time series in an environment web.
+This application is based on shiny, an interactive web applications with R, which allows to see time series in an environment web. 
+
+wtss.R is an R client package for handling Web Time-Series Service (WTSS) in the client side, see https://github.com/e-sensing/wtss.R.
+
 
 ## Usage
 
@@ -14,7 +17,7 @@ This application is based on shiny, an interactive web applications with R, whic
 
 - Load the wtss.R package <code>library(wtss.R)</code>
 
-- If you not have installed svn ("subversion") yet, open terminal and install it <code>sudo apt-get install subversion</code>.
+- If you not have installed svn ("subversion") yet, open terminal and install it <code>sudo apt-get install subversion</code>
 
 - Download the folder of github project <code>svn export https://github.com/ammaciel/Shiny/trunk/data</code>
 
@@ -26,12 +29,12 @@ This application is based on shiny, an interactive web applications with R, whic
 
 ## Web Application
 
-<img src="figures/plot-rasterToCSV.png" alt="Fig. 1. Open a file in the format .csv and view raster with parts of the time series />
+<img src="figures/plot-rasterToCSV.png" alt="Fig. 1. Open a file in the format .csv and view raster with parts of the time series" />
 <p class="caption">
 Fig. 1. Open a file in the format .csv and view raster with parts of the time series 
 </p>
 
-<img src="figures/plot-timeSeries.png" alt="Fig. 2. View of a time series from WTSS />
+<img src="figures/plot-timeSeries.png" alt="Fig. 2. View of a time series from WTSS" />
 <p class="caption">
 Fig. 2. View of a time series from WTSS
 </p>
