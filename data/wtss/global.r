@@ -23,6 +23,7 @@ in_data <- reactive({
 
 # WTSS 
 library(wtss.R)
+
 wtss.ts <- reactive({ 
   obj <<- wtss("http://www.dpi.inpe.br/mds/mds")
 

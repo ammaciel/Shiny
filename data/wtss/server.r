@@ -51,7 +51,7 @@ shinyServer(function(input, output, session) {
   time <- NULL
   
   # global variable 
-  source("~/Desktop/shiny-app/wtss/global.r", local = TRUE) 
+  source("global.r", local = TRUE) 
   
   output$table0 <- renderDataTable({ 
     call.me = in_data()
