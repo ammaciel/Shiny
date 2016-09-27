@@ -186,9 +186,9 @@ shinyServer(function(input, output, session) {
     s4 = input$long
     # if (length(s)) {
     cat('Data and dataset selected:\n')
-    cat(s1, sep = '\n')
+    cat(s1, "   ")
     cat(s2, sep = '\n')
-    cat(s3, sep = '\n')
+    cat(s3, "   ")
     cat(s4, sep = '\n')
     # }
   }) 

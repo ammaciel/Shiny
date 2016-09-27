@@ -24,4 +24,8 @@ This application is based on shiny, an interactive web applications with R, whic
 
 - In a web application, load file "example_2009_2010.csv" from directory ~/data
 
+<img src="figure/plot-patterns-1.png" alt="Fig. 2. Typical temporal patterns of *soybean*, *cotton*, and *maize*."  />
+<p class="caption">
+Fig. 2. Typical temporal patterns of *soybean*, *cotton*, and *maize*.
+</p>
 

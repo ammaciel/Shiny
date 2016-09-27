@@ -54,7 +54,7 @@ tabsetPanel(type = "tabs",
             mainPanel(
             #
               div(DT::dataTableOutput('table0'), 
-                  style = "height:420px; width:900px; overflow-x: scroll; font-size:70%"),
+                  style = "height:400px; width:900px; overflow-x: scroll; font-size:70%"),
               hr()
             )),
 
@@ -106,7 +106,7 @@ tabsetPanel(type = "tabs",
       ),
       hr(),
       div(DT::dataTableOutput('table1'), 
-          style = "height:420px; width:600px; overflow-x: scroll; font-size:70%"),
+          style = "height:400px; width:600px; overflow-x: scroll; font-size:70%"),
       hr(),
       plotOutput('plot2', height = 300, width = 800)
       )       
