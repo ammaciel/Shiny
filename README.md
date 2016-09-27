@@ -14,8 +14,14 @@ This application is based on shiny, an interactive web applications with R, whic
 
 - Load the wtss.R package <code>library(wtss.R)</code>
 
-- Download "data" folder: <code>https://github.com/ammaciel/Shiny/tree/master/data</code>.
+- If you not have installed svn ("subversion") yet, install it <code>sudo apt-get install subversion</code>.
 
-- Run shiny application <code>runApp("wtss)</code>
+- Download the folder of github project <code>svn export https://github.com/ammaciel/Shiny/trunk/data</code>
 
-- With web application open, load file "example_2009_2010.csv"
+- Load devtools <code>library(shiny)</code>
+
+- Run shiny application <code>runApp("~/data/wtss")</code>
+
+- In a web application, load file "example_2009_2010.csv"
+
+
