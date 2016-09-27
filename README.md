@@ -14,14 +14,8 @@ This application is based on shiny, an interactive web applications with R, whic
 
 - Load the wtss.R package <code>library(wtss.R)</code>
 
-- Clone the data: <code>git clone https://github.com/ammaciel/Shiny/tree/master/data </code>.
+- Download "data" folder: <code>https://github.com/ammaciel/Shiny/tree/master/data</code>.
 
+- Run shiny application <code>runApp("wtss)</code>
 
-## Building Instructions
-
-- Clone the project: <code>git clone https//github.com/e-sensing/wtss.R.git</code>.
-
-- Open Rstudio, go to File - Open Project and pick the file <code>wtss.R.Rproj</code>.
-
-- Install the required packages <code>install.packages(c("roxygen2", "testthat"))</code>.
-
+- With web application open, load file "example_2009_2010.csv"
