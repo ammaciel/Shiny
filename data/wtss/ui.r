@@ -12,10 +12,6 @@
 #################################################################
 
 
-# open global.r file with global variable
-#time <- source("global.r", local = TRUE)
-
-
 fluidPage(
 
 title = 'Time Series',
